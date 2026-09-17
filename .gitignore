@@ -1,0 +1,22 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.template
+ALL_token_api_is_here.txt
+*.session
+
+# Local runtime data
+data/
+
+# Python build/test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and editor files
+.venv/
+venv/
+.vscode/
+*.log

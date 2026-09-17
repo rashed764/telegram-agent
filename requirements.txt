@@ -1,0 +1,10 @@
+aiogram>=3.3.0
+google-genai
+langchain-google-genai
+python-dotenv
+pydantic>=2.0.0
+aiofiles
+aiosqlite
+beautifulsoup4
+requests
+telethon

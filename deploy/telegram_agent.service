@@ -1,0 +1,17 @@
+[Unit]
+Description=Telegram Autonomous File Scout AI Agent
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/telegram_agent
+ExecStart=/opt/telegram_agent/venv/bin/python src/main.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
